@@ -47,8 +47,6 @@ if (program.config) {
 if (!eslintConfigFileName) {
   console.warn('Can\'t found the eslintrc file.');
   process.exit();
-} else {
-  console.info('Use ' + eslintConfigFileName + ' as eslintrc file.')
 }
 
 if (program.preset) {
